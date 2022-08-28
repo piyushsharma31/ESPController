@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ESP Controller</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <integer name="udp_port">2390</integer>
+    <integer name="configuration_timeout">5000</integer>
+    <integer name="request_timeout">500</integer>
+    <integer name="udp_port_response">55056</integer>
+    <string name="action_settings">Settings</string>
+    <string name="action_favorite">Favorite</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="preference_appassphrase">SSID security key</string>
+    <string name="preference_connectas">Connect to SSID</string>
+    <string name="preference_mac">MAC address</string>
+    <string name="preference_firmware">Firmware version</string>
+    <string name="preference_controllername">Controller name</string>
+    <string name="preference_controllerloc">Controller location</string>
+    <string name="preference_connect_ap">Access point</string>
+    <string name="preference_favorites">Favorites</string>
+    <string name="info_devicenotfound">No device found!</string>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="controllerName"
+        android:maxLength="23"
+        android:summary=""
+        android:title="@string/preference_controllername"></EditTextPreference>
+    <EditTextPreference
+        android:key="controllerLocation"
+        android:maxLength="23"
+        android:summary="set location"
+        android:title="@string/preference_controllerloc"></EditTextPreference>
+    <com.jovistar.espcontroller.activity.EditTextPreferenceAutoText
+        android:key="controllerConnectAs"
+        android:maxLength="23"
+        android:summary="set Access Point"
+        android:title="@string/preference_connectas"></com.jovistar.espcontroller.activity.EditTextPreferenceAutoText>
+    <!--ListPreference
+        android:key="controllerConnectAs"
+        android:title="@string/preference_connectas"
+        android:entries="@array/preference_connect_as"
+        android:entryValues="@array/preference_connect_as_keys"
+        android:summary="%s"></ListPreference-->
+    <!--ListPreference
+        android:key="controllerAP"
+        android:title="@string/preference_ap"
+        android:entries="@array/preference_ap"
+        android:entryValues="@array/preference_ap_keys"
+        android:summary="select an AP"></ListPreference>-->
+    <EditTextPreference
+        android:key="controllerAPPass"
+        android:maxLength="23"
+        android:summary="set SSID security key"
+        android:title="@string/preference_appassphrase"></EditTextPreference>
+    <EditTextPreference
+        android:enabled="false"
+        android:key="controllerMAC"
+        android:summary="@string/preference_mac"
+        android:title="@string/preference_mac"></EditTextPreference>
+    <Preference
+        android:key="deviceFirmwareVersion"
+        android:summary="@string/preference_firmware"
+        android:title="@string/preference_firmware"></Preference>
+</PreferenceScreen>

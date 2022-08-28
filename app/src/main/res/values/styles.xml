@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <!--<style name="ControllerAlertDialogTheme" parent="Theme.AppCompat.Dialog.Alert">-->
+    <!--<item name="windowNoTitle">true</item>-->
+    <!-- Used for the buttons -->
+    <!--<item name="colorAccent">@color/pink</item>-->
+    <!-- Used for the title and text -->
+    <!--<item name="android:textColorPrimary">@color/colorPrimary</item>-->
+    <!--<item name="android:textColorPrimary">@color/caltxt_color_appbar</item>-->
+    <!-- Used for the background -->
+    <!--<item name="android:background">@android:color/transparent</item>-->
+    <!--</style>-->
+</resources>
